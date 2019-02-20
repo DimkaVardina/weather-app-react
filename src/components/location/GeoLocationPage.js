@@ -51,8 +51,7 @@ class GeoLocationPage extends React.Component {
                         </tbody>
                     </table>
                     <br />
-                    <button className="btn btn-primary" onClick={this.confirmLocation}>Confirm Location</button>
-                    {/* <Link to="home" className="btn btn-primary btn-lg">See forecast</Link> */}
+                    <Link to="home" className="btn btn-primary btn-lg">See forecast</Link>
                 </div>
             : <MessageBox msg="Getting your location data..." />;
     } 
