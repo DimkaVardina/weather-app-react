@@ -4,6 +4,7 @@ import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 import {geolocated} from 'react-geolocated';
 import * as locationActions from '../../actions/locationActions';
+import {Link} from 'react-router';
 
 /**
  * GeoLocationPage component
