@@ -22,7 +22,9 @@ export class HomePage extends React.Component {
                 <div className="jumbotron">
                     <h1>Sofia</h1>
                 </div>
-                <WeatherList records={days} />
+                <div className="weather-list">
+                    <WeatherList records={days} />
+                </div>
             </div>
         );
     }

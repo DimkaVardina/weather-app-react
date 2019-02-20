@@ -23,3 +23,17 @@ This will run the automated build process, start up a webserver, and open the ap
 9. Ensure you do not have NODE_ENV=production in your env variables as it will not install the devDependencies. To check run this on the command line: `set NODE_ENV`. If it comes back as production, you need to clear this env variable.
 10. Make sure you have a .babelrc file defined in the root, as provided in this repo. Without it, you'll get a `Unexpected token import` error.
 11. Nothing above work? Delete your node_modules folder and re-run npm install.
+
+| **Dependency** | **Use** |
+|----------|-------|
+|babel-polyfill | Polyfill for Babel features that cannot be transpiled |
+|bootstrap|CSS Framework|
+|react|React library |
+|react-dom|React library for DOM rendering |
+|react-redux|Redux library for connecting React components to Redux |
+|react-router|React library for routing |
+|react-router-redux|Keep React Router in sync with Redux application state|
+|redux|Library for unidirectional data flows |
+|redux-thunk|Async redux library|
+|geolocated|Takes user location|
+|axios|Used for ajax calls|
