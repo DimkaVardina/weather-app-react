@@ -4,16 +4,24 @@ import { bindActionCreators } from 'redux';
 import * as daysActions from '../../actions/daysActions';
 import WeatherList from './WeatherList';
 
-class HomePage extends React.Component {
+/**
+ * HomePage component
+ *
+ * Handles home page rendering
+ *
+ * @component
+ */
+export class HomePage extends React.Component {
     constructor(props, context) {
         super(props, context);
     }
     render() {
-        debugger;
         const { days } = this.props
         return (
-            <div className="jumbotron">
-                <h1>Sofia</h1>
+            <div>
+                <div className="jumbotron">
+                    <h1>Sofia</h1>
+                </div>
                 <WeatherList records={days} />
             </div>
         );

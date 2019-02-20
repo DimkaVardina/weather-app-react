@@ -5,3 +5,21 @@
     max-width: 850px;
     margin: 0 auto;
 }
+
+.grid-row {
+    display: block;
+    width: 100%;
+}
+.grid-cell {
+    display: inline-block;
+    float: left;
+    width: 25%;
+    height: 60px;
+    padding-top: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.more-btn {
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: 1px solid #2323ff;
+}

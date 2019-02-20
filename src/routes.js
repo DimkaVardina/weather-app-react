@@ -2,10 +2,12 @@ import React from 'react';
 import { Route, IndexRoute } from 'react-router';
 import App from './components/App';
 import HomePage from './components/home/HomePage';
+import DetailsPage from './components/details/DetailsPage';
+import GeoLocationPage from './components/location/GeoLocationPage';
 
 export default (
     <Route path="/" component={App}>
-        <IndexRoute component={HomePage} />
-        {/* <Route path="" component={}/> */}
+        <IndexRoute component={GeoLocationPage} />
+        <Route path="home" component={HomePage}/>
     </Route>
 );
